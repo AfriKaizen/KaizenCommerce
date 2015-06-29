@@ -4,7 +4,7 @@
 //define('url','http://');
 
 //development
-define('url','localhost/kaizen/kaizencommerce/');
+define('url','localhost/kaizen/KaizenCommerce/');
 
 class Catalogue extends CI_Controller {
 

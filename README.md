@@ -30,5 +30,7 @@ Getting Started
 2. Import database file ./kaizencommerce.sql into the database you created in step 1
 3. in your www folder or htdocs create folders kaizen/kaizencommerce
 4. Copy current repo into kaizen/kaizencommerce
+5. Email delivery service SendGrid requires an API Key and Username. These two have been removed from ./application/libraries/Email_Assistant.php. They should be provided before pushing up to production.
+6. PayNow payment recieval service requires an Integration ID & Integration KEY. These two have been removed from ./application/controllers/paynow.php. They should be provided before pushing to production.
 
 

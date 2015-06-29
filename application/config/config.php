@@ -15,7 +15,7 @@
 |
 */
 //development
-$config['base_url'] = 'http://localhost/kaizen/kaizencommerce/';
+$config['base_url'] = 'http://localhost/kaizen/KaizenCommerce/';
 
 //production
 //$config['base_url'] = 'https://';
